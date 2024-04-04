@@ -28,7 +28,7 @@ jobs:
     - run: npm run build --if-present
     - uses: actions/upload-pages-artifact@v3  
       with:
-        path: ./dist/dudy-kart/browser
+        path: ./dist/dudy-kart-2/browser
   
   deploy:
     needs: build
